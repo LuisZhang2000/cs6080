@@ -7,12 +7,13 @@
 		body {
 			width: 744px;
 			height: 743px;
-			font-size: 16px;
+			padding: 8px;
+			font-size: 20px;
 			color: rgb(72, 72, 72);
 		}
 		
 		h1 {
-			font-size: 40px;
+			font-size: 36px;
 		}
 
 		.buttons {
@@ -42,6 +43,26 @@
 			height: 1px;
 			background-color: gray;
 		}
+		.column {
+			/* width: 100px; */
+		}
+		.leftrow {
+			width: 290px;
+			float: left;
+		}
+		.rightrow {
+			width: 330px;
+			float: right;
+		}
+		ul {
+			list-style-type: none;
+			padding: 0;
+		}
+		li {
+			line-height: 1.375em;
+			padding: 8px 0px;
+		}
+
 	</style>
 </head>
 
@@ -55,22 +76,22 @@
 	<div class="divider"></div>
 	<h2>These articles might help</h2>
 	<div class="column"></div>
-		<div class="row">
+		<div class="leftrow">
 			<h3>Getting started</h3>
 			<ul>
-				<li>How do I create an account? </li>
+				<li>How do I create an account?</li>
 				<li>Airbnb Referral Program Terms and Conditions</li>
 				<li>How do I search for a place to stay?</li>
 				<li>How do I contact a host before booking a reservation?</li>
 			</ul>
 		</div>
-	<div class="row">
-		<h3>Getting started</h3>
+	<div class="rightrow">
+		<h3>Your account</h3>
 			<ul>
-				<li>How do I create an account? </li>
-				<li>Airbnb Referral Program Terms and Conditions</li>
-				<li>How do I search for a place to stay?</li>
-				<li>How do I contact a host before booking a reservation?</li>
+				<li>How do I reset or change my password?</li>
+				<li>How do I edit, remove, or add a payment method?</li>
+				<li>How do I edit or change my payout method?</li>
+				<li>How do I deactivate or delete my account?</li>
 			</ul>
 		</div>
 </body>
