@@ -1,11 +1,50 @@
+body {
+	padding: 0% 10%;
+	color: gray
+}
+
 h1 {
 	text-align: center;
 }
 
 h2 {
 	text-align: center;
+	color: rgb(216, 173, 107);
 }
 
 p {
 	text-align: center;
+	line-height: 1.5;
+	font-size: 1.2em;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.left {
+	flex: 1;
+	padding: 0 1.5%;
+}
+
+.right {
+	flex: 1;
+}
+
+hr {
+  border-top: 1px solid gray;
+	margin: 35px 0;
+}
+
+ul { 
+	line-height: 1.5;
+}
+
+.black-text {
+	color: black;
+}
+
+.bold {
+	font-weight: bold;
+	color: #666666;
 }
