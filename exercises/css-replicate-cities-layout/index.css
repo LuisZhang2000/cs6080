@@ -1,0 +1,35 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 100px;
+	padding: 70px;
+	letter-spacing: -5px;
+}
+
+.container {
+	display: flex;
+}
+
+.element {
+	flex: 1;
+}
+
+.element img {
+	width: 590px;
+	height: 400px;
+	object-fit: cover;
+}
+
+.label {
+	font-size: 28px;
+	font-style: italic;
+}
