@@ -1,0 +1,58 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding: 0 10%;
+}
+
+h1 {
+	color: #444444;
+	font-size: 3rem;
+	font-weight: lighter;
+}
+
+h2 {
+	font-size: 1.3rem;
+	color: #AAAAAA;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+.social-icons {
+	align-items: center;
+	padding-bottom: 0.1em;
+	border-bottom: #DDDDDD solid 1px;
+}
+
+.social-icons img {
+	padding: 0 0.5em;
+}
+
+p {
+	line-height: 2.5rem;
+	color: #888888;
+  font-size: 1em;
+
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.column img {
+	margin: 3px;
+}
