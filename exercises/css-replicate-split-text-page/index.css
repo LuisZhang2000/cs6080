@@ -7,14 +7,16 @@ body {
 main {
 	display: flex;
 	/* margin: 0 auto; */
-  /* width: 82.5%; */
+  width: 82.5%;
+	margin-left: 150px;
+	margin-top: 60px;
 }
 
 h1 {
 	font-weight: normal;
 	font-size: 2.5em;
 	letter-spacing: 0.05em;
-	margin: 0 10%;
+	margin: 0 5%;
 	text-transform: uppercase;
 }
 
@@ -83,7 +85,7 @@ p {
 .boxed {
 	text-transform: uppercase;
 	font-weight: 700;
-	padding: 10px 20px;
+	padding: 10px 10px;
 	background-color: black;
 	color: white;
 	font-size: 10pt;
@@ -95,6 +97,10 @@ p {
 .archive {
 	font-style: italic;
 	color: #888888;
+}
+
+.info-summary {
+		margin-top: 5px;
 }
 
 .underline {
