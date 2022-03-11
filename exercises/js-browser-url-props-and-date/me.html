@@ -1,0 +1,15 @@
+<script type="text/javascript">
+
+	const url = window.location.href;
+	const queryParams = url.split('?')[1]; // gets the remaning string after the ? 
+	const data = queryParams.split('&');
+
+	const dataObj = {};
+	data.forEach((pair) => {
+		const [key, value] = pair.split('=');	// e.g. key = name, value = francis
+		dataObj[key] = value;
+	});
+
+	console.log(`My name is ${dataObj.name} and my age is ${dataObj.age}`);
+
+</script>
