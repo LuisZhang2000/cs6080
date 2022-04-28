@@ -1,0 +1,25 @@
+.App {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  text-align: center;
+  padding: 0 100px;
+}
+
+h1 {
+  font-size: 50pt;
+}
+
+.small-text {
+  font-size: 10pt;
+}
+
+.body-text {
+  font-size: 20pt;
+  text-align: left;
+}
+
+ul {
+  text-align: left;
+  padding: 0 0 0 100px;
+}
